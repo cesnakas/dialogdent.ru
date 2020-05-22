@@ -1,18 +1,18 @@
 # dialogdent.ru
-version ```2.0```
+version: ```2.0```
 
 sitemap:
 ---
 ```
-dialogdent.ru/
-├── about.html/
-├── news.html/
-│   └── news-single.html/
-├── catalog.html/
-│   └── catalog-section.html/
-│       └── catalog-single.html/
-├── stocks.html/
-├── contact.html/
-└── learning.html/
-    └── learning-single.html/
+dialogdent.ru/                   (главная страница)
+├── about.html/                  (о компании)
+├── news.html/                   (новости)
+│   └── news-single.html/        (новость подробно)
+├── catalog.html/                (каталог)
+│   └── catalog-section.html/    (разделы каталога)
+│       └── catalog-single.html/ (страница продукта)
+├── stocks.html/                 (акции)
+├── contact.html/                (контакты)
+└── learning.html/               (обучение)
+    └── learning-single.html/    (обучение подробно)
 ```
