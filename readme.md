@@ -1,7 +1,8 @@
 # dialogdent.ru
-Version ```2.0```
----
+version ```2.0```
+
 sitemap:
+---
 ```
 dialogdent.ru/
 ├── about.html/
