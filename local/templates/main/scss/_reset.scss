@@ -1,0 +1,11 @@
+.main {
+
+  &__wrapper {
+    min-height: 100vh;
+    margin-bottom: 1.25rem;
+    border-radius: .25rem;
+    overflow-x: hidden;
+    background-color: #fff;
+    box-shadow: 0 .5rem .5rem -.5rem rgba(#000, .5);
+  }
+}
