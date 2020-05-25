@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+dialogdent.ru	TRUE	/	FALSE	1999999999	PHPSESSID	06f4da15b36b043bbd94226a9534363f
+dialogdent.ru	TRUE	/	FALSE	1999999999	wpsc_customer_cookie_0b2275430c21181975a606fd1f8183d2	_%2AioK5%234%29qQmR%7C1590307509%7C77ff1468487ab41483c5a38ae3f52218
+dialogdent.ru	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+
