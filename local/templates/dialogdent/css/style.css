@@ -937,7 +937,7 @@ th.visible-print,td.visible-print{display:none !important;}
 
 .header-container {
 	width: 100%;
-	background: url('top.png');
+	background: url('../img/top.png');
 	background-repeat: repeat-x;	
 	border-bottom: 1px solid #c7bbbb;
 	background-color: #fff;

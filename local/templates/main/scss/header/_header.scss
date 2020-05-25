@@ -1,0 +1,13 @@
+.header {
+	display: flex;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #c7bbbb;
+	background-color: #fff;
+
+	> [class*="container"] {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
