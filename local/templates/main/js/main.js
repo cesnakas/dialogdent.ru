@@ -1,7 +1,7 @@
 var sliderSwiper = new Swiper('.swiper-slider', {
   // cssMode: true,
   autoplay: {
-    delay: 3500,
+    delay: 4500,
     disableOnInteraction: false,
   },
   navigation: {
