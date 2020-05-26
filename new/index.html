@@ -7,7 +7,7 @@
 
 	<title>Document</title>
 
-	<link rel="stylesheet" href="local/templates/main/css/main.min.css">
+	<link rel="stylesheet" href="../local/templates/main/css/main.min.css">
 
 </head>
 <body>
@@ -29,76 +29,86 @@
 	<!-- /header -->
 
 	<!-- navigation -->
-	<nav class="navigation__navbar">
-		<div class="container">
+	<div class="container">
+		<nav class="navigation__navbar">
 			
-			<div class="navigation__wrapper">
-				
-				<div class="navigation__navbar-nav">
-					<a href="">О компании</a>
-					<a href="">Новости</a>
-					<a href="">Продукция</a>
-					<a href="">Обучение</a>
-					<a href="">Контакты</a>
-				</div>
-				
-				<div class="navigation__auth">
-					<a href="">Войти</a>
-					<a href="">Регистрация</a>
-				</div>
-				
+			<div class="navigation__navbar-nav">
+				<a href="">О компании</a>
+				<a href="">Новости</a>
+				<a href="">Продукция</a>
+				<a href="">Обучение</a>
+				<a href="">Контакты</a>
 			</div>
-
-		</div>
-	</nav>
+			
+			<div class="navigation__auth">
+				<a href="">Войти</a>
+				<a href="">Регистрация</a>
+			</div>
+			
+		</nav>
+	</div>
 	<!-- /navigation -->
 
 	<!-- main -->
 	<div class="container">
-		<div class="main__wrapper">
+		<div class="grid__container">
 			
 			<!-- slider -->
-			<div class="swiper-container swiper-slider">
-				<div class="swiper-wrapper">
+			<div class="grid__slider">
 
-					<div class="swiper-slide">
-						<img src="/images/slider/slide-01.jpg" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="/images/slider/slide-02.jpg" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="/images/slider/slide-03.jpg" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="/images/slider/slide-04.jpg" alt="">
-					</div>
+				<div class="swiper-container swiper-slider">
+					<div class="swiper-wrapper">
 
+						<div class="swiper-slide">
+							<img src="/images/slider/slide-01.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="/images/slider/slide-02.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="/images/slider/slide-03.jpg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="/images/slider/slide-04.jpg" alt="">
+						</div>
+
+					</div>
+					<!-- arrows -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<!-- pagination -->
+					<div class="swiper-pagination"></div>
 				</div>
-				<!-- arrows -->
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-button-next"></div>
-				<!-- pagination -->
-				<div class="swiper-pagination"></div>
+
 			</div>
 			<!-- /slider -->
 
 			<!-- left menu -->
-			<aside class="px-3">
+			<aside class="grid__aside">
 
-				<ul id="menu-produkciya" class="menu"><li id="menu-item-1780" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-has-children menu-item-1780"><a href="http://dialogdent.ru/produkciya/cadcam/">CAD/CAM</a>
-					<ul class="sub-menu">
-						<li id="menu-item-1781" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1781"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-kit/">Комплекты CAD/CAM</a></li>
-						<li id="menu-item-1782" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1782"><a href="http://dialogdent.ru/produkciya/cadcam/cad_cam_sirona/">SIRONA</a></li>
-						<li id="menu-item-1797" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1797"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-3shape/">3Shape</a></li>
-						<li id="menu-item-1799" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1799"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-stl/">Открытые системы (STL)</a></li>
-						<li id="menu-item-1798" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1798"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-materials/">Расходные материалы</a></li>
-					</ul>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<a href="http://dialogdent.ru/produkciya/cadcam/">CAD/CAM</a>
+						<!-- <ul class="sub-menu">
+							<li id="menu-item-1781" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1781"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-kit/">Комплекты CAD/CAM</a></li>
+							<li id="menu-item-1782" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1782"><a href="http://dialogdent.ru/produkciya/cadcam/cad_cam_sirona/">SIRONA</a></li>
+							<li id="menu-item-1797" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1797"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-3shape/">3Shape</a></li>
+							<li id="menu-item-1799" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1799"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-stl/">Открытые системы (STL)</a></li>
+							<li id="menu-item-1798" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1798"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-materials/">Расходные материалы</a></li>
+						</ul> -->
 					</li>
-					<li id="menu-item-1783" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1783"><a href="http://dialogdent.ru/produkciya/ystanovki/">Установки</a></li>
-					<li id="menu-item-1784" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1784"><a href="http://dialogdent.ru/produkciya/rentgenovskie_sistems/">Рентгеновские системы</a></li>
-					<li id="menu-item-1785" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1785"><a href="http://dialogdent.ru/produkciya/pribori_i_instrumenti/">Приборы и инстументы</a></li>
-					<li id="menu-item-1786" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1786"><a href="http://dialogdent.ru/produkciya/sterelizacia/">Стерилизация</a></li>
+					<li class="list-group-item">
+						<a href="http://dialogdent.ru/produkciya/ystanovki/">Установки</a>
+					</li>
+					<li class="list-group-item">
+						<a href="http://dialogdent.ru/produkciya/rentgenovskie_sistems/">Рентгеновские системы</a>
+					</li>
+					<li id="menu-item-1785" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1785">
+						<a href="http://dialogdent.ru/produkciya/pribori_i_instrumenti/">Приборы и инстументы</a>
+					</li>
+					<li id="menu-item-1786" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1786">
+						<a href="http://dialogdent.ru/produkciya/sterelizacia/">Стерилизация</a>
+					</li>
 					<li id="menu-item-1787" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1787"><a href="http://dialogdent.ru/produkciya/opiracionnie_mkroskopi/">Оптика и микроскопы</a></li>
 					<li id="menu-item-1788" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1788"><a href="http://dialogdent.ru/produkciya/ergonomichnie_stulia/">Эргономичные стулья</a></li>
 					<li id="menu-item-1789" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1789"><a href="http://dialogdent.ru/produkciya/mebel/">Мебель</a></li>
@@ -115,7 +125,7 @@
 			<!-- /left menu -->
 
 			<!-- main -->
-			<main class="px-3">
+			<main class="grid__main">
 
 			</main>
 			<!-- /main -->
@@ -138,7 +148,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@5.4.1/js/swiper.min.js"></script>
-	<script src="local/templates/main/js/main.js"></script>
+	<script src="../local/templates/main/js/main.js"></script>
 
 </body>
 </html>
