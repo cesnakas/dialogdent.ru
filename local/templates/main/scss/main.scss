@@ -13,7 +13,6 @@
 
 // Reboot
 @import 'reboot';
-@import 'reset';
 
 // Typography
 @import 'type';
@@ -31,7 +30,8 @@
 @import 'header/logo';
 
 // Navigation
-@import 'nav/navigation';
+@import 'nav/top-menu';
+@import 'nav/left-menu';
 
 // Sections
 @import 'sections/slider';

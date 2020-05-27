@@ -30,9 +30,9 @@
 
 	<!-- navigation -->
 	<div class="container">
-		<nav class="navigation__navbar">
+		<nav class="top-menu__navbar">
 			
-			<div class="navigation__navbar-nav">
+			<div class="top-menu__navbar-nav">
 				<a href="">О компании</a>
 				<a href="">Новости</a>
 				<a href="">Продукция</a>
@@ -40,7 +40,7 @@
 				<a href="">Контакты</a>
 			</div>
 			
-			<div class="navigation__auth">
+			<div class="top-menu__auth">
 				<a href="">Войти</a>
 				<a href="">Регистрация</a>
 			</div>
@@ -74,10 +74,10 @@
 
 					</div>
 					<!-- arrows -->
-					<div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev swiper-button-black"></div>
+					<div class="swiper-button-next swiper-button-black"></div>
 					<!-- pagination -->
-					<div class="swiper-pagination"></div>
+					<div class="swiper-pagination swiper-pagination-black"></div>
 				</div>
 
 			</div>
@@ -86,57 +86,70 @@
 			<!-- left menu -->
 			<aside class="grid__aside">
 
-				<ul class="list-group">
-					<li class="list-group-item">
-						<a href="http://dialogdent.ru/produkciya/cadcam/">CAD/CAM</a>
-						<!-- <ul class="sub-menu">
-							<li id="menu-item-1781" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1781"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-kit/">Комплекты CAD/CAM</a></li>
-							<li id="menu-item-1782" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1782"><a href="http://dialogdent.ru/produkciya/cadcam/cad_cam_sirona/">SIRONA</a></li>
-							<li id="menu-item-1797" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1797"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-3shape/">3Shape</a></li>
-							<li id="menu-item-1799" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1799"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-stl/">Открытые системы (STL)</a></li>
-							<li id="menu-item-1798" class="menu-item menu-item-type-taxonomy menu-item-object-wpsc_product_category menu-item-1798"><a href="http://dialogdent.ru/produkciya/cadcam/cadcam-materials/">Расходные материалы</a></li>
-						</ul> -->
+				<ul class="left-menu">
+					<li class="left-menu__item dropright">
+
+						<a href="http://dialogdent.ru/produkciya/cadcam/" data-toggle="dropdown">CAD/CAM</a>
+
+						<ul class="dropdown-menu">
+							<li class="">
+								<a href="http://dialogdent.ru/produkciya/cadcam/cadcam-kit/">Комплекты CAD/CAM</a>
+							</li>
+							<li class="">
+								<a href="http://dialogdent.ru/produkciya/cadcam/cad_cam_sirona/">SIRONA</a>
+							</li>
+							<li class="">
+								<a href="http://dialogdent.ru/produkciya/cadcam/cadcam-3shape/">3Shape</a>
+							</li>
+							<li class="">
+								<a href="http://dialogdent.ru/produkciya/cadcam/cadcam-stl/">Открытые системы (STL)</a>
+							</li>
+							<li class="">
+								<a href="http://dialogdent.ru/produkciya/cadcam/cadcam-materials/">Расходные материалы</a>
+							</li>
+						</ul>
+
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/ystanovki/">Установки</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/rentgenovskie_sistems/">Рентгеновские системы</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/pribori_i_instrumenti/">Приборы и инстументы</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/sterelizacia/">Стерилизация</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/opiracionnie_mkroskopi/">Оптика и микроскопы</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/ergonomichnie_stulia/">Эргономичные стулья</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/mebel/">Мебель</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/xirurgia/">Хирургия</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/ortopedia/">Ортопедия</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/endodontia/">Эндодонтия</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/terapia/">Терапия и эстетика</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/otbelivanie/">Отбеливание</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/zybotexnicheskaa_laboratoria/">Зуботехническая лаборатория</a>
 					</li>
-					<li class="list-group-item">
+					<li class="left-menu__item">
 						<a href="http://dialogdent.ru/produkciya/gigiena/">Гигиена</a>
 					</li>
 				</ul>
