@@ -12,7 +12,7 @@ var sliderSwiper = new Swiper('.swiper-slider', {
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
-    type: 'progressbar',
+    // type: 'progressbar',
   },
   mousewheel: false,
   keyboard: true,
