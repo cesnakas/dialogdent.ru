@@ -1,3 +1,4 @@
+// Slider
 var sliderSwiper = new Swiper('.swiper-slider', {
   
   autoplay: {
@@ -17,3 +18,16 @@ var sliderSwiper = new Swiper('.swiper-slider', {
   mousewheel: false,
   keyboard: true,
 });
+// Slider hide
+if (location.pathname !== '/') {
+  $('.grid__slider').hide();
+  $('.grid__container').css({
+    'grid-template-rows':'0 1fr',
+  });
+  // $('.footer').css({
+  //   'position':'fixed',
+  //   'left':'0',
+  //   'right':'0',
+  //   'bottom':'0',
+  // });
+};
