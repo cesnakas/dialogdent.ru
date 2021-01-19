@@ -38,21 +38,25 @@ if (isset($_REQUEST['form1']) || isset($_REQUEST['form2'])){
 }
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.element",
-	"template1",
-	Array(
+	"bitrix:catalog.element", 
+	"template1", 
+	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_DETAIL_TO_SLIDER" => "Y",
 		"ADD_ELEMENT_CHAIN" => "N",
 		"ADD_PICT_PROP" => "MORE_PHOTO",
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
-		"ADD_TO_BASKET_ACTION" => array(0=>"BUY",),
-		"ADD_TO_BASKET_ACTION_PRIMARY" => array(0=>"BUY",),
+		"ADD_TO_BASKET_ACTION" => array(
+			0 => "BUY",
+		),
+		"ADD_TO_BASKET_ACTION_PRIMARY" => array(
+			0 => "BUY",
+		),
 		"BACKGROUND_IMAGE" => "-",
 		"BASKET_URL" => "/personal/basket.php",
 		"BRAND_USE" => "N",
-		"BROWSER_TITLE" => "-",
+		"BROWSER_TITLE" => "NAME",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
@@ -61,7 +65,10 @@ if (isset($_REQUEST['form1']) || isset($_REQUEST['form2'])){
 		"COMPONENT_TEMPLATE" => "template1",
 		"CONVERT_CURRENCY" => "Y",
 		"CURRENCY_ID" => "EUR",
-		"DETAIL_PICTURE_MODE" => array(0=>"POPUP",1=>"MAGNIFIER",),
+		"DETAIL_PICTURE_MODE" => array(
+			0 => "POPUP",
+			1 => "MAGNIFIER",
+		),
 		"DETAIL_URL" => "#SITE_DIR#/catalog/#SECTION_CODE#/#ELEMENT_CODE#/",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 		"DISPLAY_COMPARE" => "N",
@@ -85,7 +92,8 @@ if (isset($_REQUEST['form1']) || isset($_REQUEST['form2'])){
 		"IBLOCK_ID" => "2",
 		"IBLOCK_TYPE" => "produkciya",
 		"IMAGE_RESOLUTION" => "16by9",
-		"LABEL_PROP" => array(),
+		"LABEL_PROP" => array(
+		),
 		"LINK_ELEMENTS_URL" => "link.php?PARENT_ELEMENT_ID=#ELEMENT_ID#",
 		"LINK_IBLOCK_ID" => "",
 		"LINK_IBLOCK_TYPE" => "",
@@ -103,7 +111,8 @@ if (isset($_REQUEST['form1']) || isset($_REQUEST['form2'])){
 		"META_KEYWORDS" => "-",
 		"OFFERS_LIMIT" => "0",
 		"PARTIAL_PRODUCT_PROPERTIES" => "Y",
-		"PRICE_CODE" => array(),
+		"PRICE_CODE" => array(
+		),
 		"PRICE_VAT_INCLUDE" => "Y",
 		"PRICE_VAT_SHOW_VALUE" => "N",
 		"PRODUCT_ID_VARIABLE" => "id",
@@ -123,7 +132,7 @@ if (isset($_REQUEST['form1']) || isset($_REQUEST['form2'])){
 		"SET_CANONICAL_URL" => "N",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "Y",
-		"SET_META_KEYWORDS" => "Y",
+		"SET_META_KEYWORDS" => "N",
 		"SET_STATUS_404" => "N",
 		"SET_TITLE" => "Y",
 		"SET_VIEWED_IN_COMPONENT" => "N",
@@ -147,5 +156,6 @@ if (isset($_REQUEST['form1']) || isset($_REQUEST['form2'])){
 		"USE_PRODUCT_QUANTITY" => "N",
 		"USE_RATIO_IN_RANGES" => "N",
 		"USE_VOTE_RATING" => "N"
-	)
+	),
+	false
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

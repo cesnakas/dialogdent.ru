@@ -2,9 +2,9 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Title");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section",
-	".default",
-	Array(
+	"bitrix:catalog.section", 
+	".default", 
+	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_PICT_PROP" => "-",
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
@@ -17,7 +17,7 @@ $APPLICATION->SetTitle("Title");
 		"AJAX_OPTION_STYLE" => "Y",
 		"BACKGROUND_IMAGE" => "-",
 		"BASKET_URL" => "/personal/basket.php",
-		"BROWSER_TITLE" => "-",
+		"BROWSER_TITLE" => "NAME",
 		"CACHE_FILTER" => "N",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "36000000",
@@ -42,7 +42,8 @@ $APPLICATION->SetTitle("Title");
 		"IBLOCK_ID" => "2",
 		"IBLOCK_TYPE" => "produkciya",
 		"INCLUDE_SUBSECTIONS" => "Y",
-		"LABEL_PROP" => array(),
+		"LABEL_PROP" => array(
+		),
 		"LAZY_LOAD" => "N",
 		"LINE_ELEMENT_COUNT" => "3",
 		"LOAD_ON_SCROLL" => "N",
@@ -64,7 +65,8 @@ $APPLICATION->SetTitle("Title");
 		"PAGER_TITLE" => "Товары",
 		"PAGE_ELEMENT_COUNT" => "18",
 		"PARTIAL_PRODUCT_PROPERTIES" => "N",
-		"PRICE_CODE" => array(),
+		"PRICE_CODE" => array(
+		),
 		"PRICE_VAT_INCLUDE" => "Y",
 		"PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons",
 		"PRODUCT_ID_VARIABLE" => "id",
@@ -79,13 +81,16 @@ $APPLICATION->SetTitle("Title");
 		"SECTION_ID" => $_REQUEST["SECTION_ID"],
 		"SECTION_ID_VARIABLE" => "SECTION_CODE",
 		"SECTION_URL" => "/catalog/#SECTION_CODE#/",
-		"SECTION_USER_FIELDS" => array(0=>"",1=>"",),
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
 		"SEF_MODE" => "Y",
 		"SEF_RULE" => "/catalog/#SECTION_CODE#/",
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "Y",
-		"SET_META_KEYWORDS" => "Y",
+		"SET_META_KEYWORDS" => "N",
 		"SET_STATUS_404" => "N",
 		"SET_TITLE" => "Y",
 		"SHOW_404" => "N",
@@ -104,5 +109,6 @@ $APPLICATION->SetTitle("Title");
 		"USE_MAIN_ELEMENT_SECTION" => "N",
 		"USE_PRICE_COUNT" => "N",
 		"USE_PRODUCT_QUANTITY" => "N"
-	)
+	),
+	false
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

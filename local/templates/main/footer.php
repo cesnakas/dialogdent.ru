@@ -58,7 +58,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)	die();
 				</div>
 				<div class="f-col4">
 					<p class="text-right"><span class="orange">ООО «Диалог Дентал Депо», Москва</span><br>
-					Адрес: 115191, г. Москва, 2-й Троицкий переулок 6А, строение 5<br>
+					Адрес: г. Москва, Переулок Васнецова 7<br>
 						Телефон: <a href="tel:+74957965340">+7 (495) 796-53-40</a><br>
 					E-mail: <a href="mailto:info@dialogdent.ru">info@dialogdent.ru</a></p>
 					<p class="text-right"><span class="orange">ООО «Диалог Дентал Депо», Самара</span><br>

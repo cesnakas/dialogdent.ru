@@ -8,20 +8,12 @@ $arUrlRewrite=array (
     'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
-  15 => 
+  19 => 
   array (
     'CONDITION' => '#^/catalog/([^/]+?)/([^/]+?)/\\??(.*)#',
     'RULE' => 'SECTION_CODE=$1&ELEMENT_CODE=$2&$3',
     'ID' => 'bitrix:catalog.element',
     'PATH' => '/catalog/element.php',
-    'SORT' => 100,
-  ),
-  13 => 
-  array (
-    'CONDITION' => '#^/catalog/([\\w\\d\\-]+)(\\\\?(.*))?#',
-    'RULE' => 'SECTION_CODE=$1',
-    'ID' => 'bitrix:catalog.section',
-    'PATH' => '/catalog/list.php',
     'SORT' => 100,
   ),
   0 => 
@@ -40,7 +32,7 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/ymarket/index.php',
     'SORT' => 100,
   ),
-  14 => 
+  18 => 
   array (
     'CONDITION' => '#^/catalog/([^/]+?)/\\??(.*)#',
     'RULE' => 'SECTION_CODE=$1&$2',
@@ -64,7 +56,7 @@ $arUrlRewrite=array (
     'PATH' => '/lastcourse/index.php',
     'SORT' => 100,
   ),
-  17 => 
+  20 => 
   array (
     'CONDITION' => '#^/training/#',
     'RULE' => '',

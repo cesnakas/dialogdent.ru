@@ -1,7 +1,7 @@
 <?php
-$bg_color = array("#ffffff",
-"#F5F5F5",
-"#F5F5F5");
+$bg_color = array("url(/images/banners/thumbnail_1.jpg)",
+"url(/images/banners/thumbnail_2.jpg)",
+"url(/images/banners/thumbnail.jpg)");
 
 $spec_name = array('Комплект для фрезерования за<br><span style="color:#FF710D;">21 000 EUR</span>',
 'При закупке BioRepair реминилизующий комплекс (12 шт.)',
@@ -19,10 +19,6 @@ $spec_img  = array('/images/banners/image2.png',
 
 $slides ='';
 for ($i=0; $i < count($spec_name); $i++){
-$slides .= '<div class="swiper-slide" style="background:'. $bg_color[$i] .';"><div class="news-list">
-	<div class="spec_name">'. $spec_name[$i] .'</div>
-	<div class="spec_text">'. $spec_text[$i] .'</div>
-	<img class="prev_picture_spec" src="'. $spec_img[$i] .'">
-</div></div>';
+$slides .= '<div style="background-size:cover;background-repeat:no-repeat;background-position:50%;background-image:'. $bg_color[$i] .';" class="swiper-slide"></div>';
 }
 ?>

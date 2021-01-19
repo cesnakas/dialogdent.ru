@@ -113,13 +113,13 @@ $APPLICATION->SetTitle("Главная");
 );?>
 <div class="home_cat1">
 	<div class="cat optic">
- <a href="/catalog/?SECTION_ID=20"><span class="capt">ОПТИКА И МИКРОСКОПЫ</span></a>
+ <a href="/catalog/mikroskopy/"><span class="capt">ОПТИКА И МИКРОСКОПЫ</span></a>
 	</div>
 	<div class="cat steril">
- <a href="/catalog/?SECTION_ID=12"><span class="capt">ИНТРАОРАЛЬНЫЕ СКАНЕРЫ</span></a>
+ <a href="/catalog/intraoralnye-skanery/"><span class="capt">ИНТРАОРАЛЬНЫЕ СКАНЕРЫ</span></a>
 	</div>
 	<div class="cat cadcam">
- <a href="/catalog/?SECTION_ID=14"><span class="capt">CAD/CAM - КОМПЛЕКТЫ</span></a>
+ <a href="/catalog/kompleksnye-resheniya/"><span class="capt">CAD/CAM - КОМПЛЕКТЫ</span></a>
 	</div>
 </div>
  <br>
